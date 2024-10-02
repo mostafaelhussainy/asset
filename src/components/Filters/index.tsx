@@ -30,14 +30,14 @@ const Filters = () => {
     >
       <TextField
         sx={{
-          width: "450px",
+          width: "350px",
         }}
         placeholder="Search by name"
         value={nameFilter}
         onChange={(e) => setNameFilter(e.target.value)}
       />
 
-      <FormControl sx={{ width: "450px" }}>
+      <FormControl sx={{ width: "350px" }}>
         <InputLabel>Filter by category</InputLabel>
         <Select
           value={categoryFilter || ""}
@@ -61,7 +61,7 @@ const Filters = () => {
         </Select>
       </FormControl>
 
-      <FormControl sx={{ width: "450px" }}>
+      <FormControl sx={{ width: "350px" }}>
         <InputLabel>Filter by subcategory</InputLabel>
         <Select
           value={subcategoryFilter || ""}
